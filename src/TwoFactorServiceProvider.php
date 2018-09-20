@@ -10,8 +10,6 @@
 
 namespace Lshtmweb\Lumen2FA;
 
-
-use GuzzleHttp\Middleware;
 use Illuminate\Support\ServiceProvider;
 
 class TwoFactorServiceProvider extends ServiceProvider
@@ -23,7 +21,6 @@ class TwoFactorServiceProvider extends ServiceProvider
                     __DIR__ . '/config/lumen2fa.php' => config_path('lumen2fa.php'),
                 ]);
 
-                $router = $this->app['router']->pushMiddlewareToGroup('lumen2fa', Middleware::class);
-
+                $this->app['router']->pushMiddlewareToGroup('lumen2fa', TwoFactorCheckMiddleware::class);
         }
 }
