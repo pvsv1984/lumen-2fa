@@ -27,6 +27,7 @@ The standard routes have already been set up for you. You can change to suit you
 
 - Add the middleware
   - In route middleware add a new middleware or use the default one `lumen2fa` to secure your routes.
+
 ### Events Fired
 - TwoFactorActivatedEvent
 - TwoFactorBeforeDisableEvent
