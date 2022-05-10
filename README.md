@@ -1,6 +1,8 @@
 # Google2FA for Lumen
 
 ### Google Two-Factor Authentication Package for Lumen
+Package install:
+composer require pvsv1984/lumen-2fa
 
 Google2FA is a PHP implementation of the Google Two-Factor Authentication Module, supporting the HMAC-Based One-time Password (HOTP) algorithm specified in [RFC 4226](https://tools.ietf.org/html/rfc4226) and the Time-based One-time Password (TOTP) algorithm specified in [RFC 6238](https://tools.ietf.org/html/rfc6238).
 
