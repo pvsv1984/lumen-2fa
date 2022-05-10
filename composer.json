@@ -1,5 +1,5 @@
 {
-    "name": "lshtmweb/lumen-2fa",
+    "name": "pvsv1984/lumen-2fa",
     "description": "A One Time Password Authentication package, compatible with Google Authenticator. Authenticates oauth tokens",
     "keywords": ["authentication", "two factor authentication", "google2fa", "laravel", "lumen"],
     "license": "BSD-3-Clause",
